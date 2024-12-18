@@ -1,0 +1,9 @@
+Flask
+requests
+DateTime
+aiomysql
+gunicorn
+htmlmin
+python-dotenv
+Flask-Session
+mysql-connector-python

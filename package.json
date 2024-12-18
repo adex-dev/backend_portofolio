@@ -1,0 +1,47 @@
+{
+  "name": "backend_portfolio",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "tailwind": "npx tailwindcss build -i resources/src/tailwind.css -o resources/build/css/styles.css --minify --watch"
+  },
+  "keywords": [
+    "akmadnudin,portfolio,Ahmad Nudin"
+  ],
+  "author": {
+    "name": "Akmad Nudin",
+    "email": "akmadnudin.inc@gmail.com",
+    "url": [
+      "akmadnudin.com",
+      "github.com/adex-dev"
+    ]
+  },
+  "license": "ISC",
+  "description": "Akmad Nudin Backoffice Portfolio",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@popperjs/core": "^2.11.8",
+    "@sweetalert2/theme-bulma": "^5.0.16",
+    "babel-loader": "^9.1.3",
+    "javascript-obfuscator": "^4.1.0",
+    "sweetalert2": "^11.10.6",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-obfuscator": "^3.5.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "daisyui": "^4.12.22",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
